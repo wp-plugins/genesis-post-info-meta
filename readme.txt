@@ -4,7 +4,7 @@ Donate link:       http://wordpress.org/plugins/genesis-post-info-meta
 Tags:              genesis, post, info, meta, control
 Requires at least: 3.5
 Tested up to:      4.3
-Stable tag:        1.0.0
+Stable tag:        1.0.1
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,10 +38,16 @@ Genesis Post Info & Meta provides settings that can be accessed via the WordPres
 
 == Changelog ==
 
+= 1.0.1 =
+* Fixing admin notice display bug in which notice can't be dismissed and logo flashes in too large
+
 = 1.0.0 =
 * First release
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+* Fixing admin notice display bug in which notice can't be dismissed and logo flashes in too large
 
 = 1.0.0 =
 First Release
