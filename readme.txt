@@ -22,7 +22,7 @@ Genesis Post Info & Meta allows you to specify exactly where to output post info
 Genesis Post Info & Meta provides settings that can be accessed via the WordPress customizer.
 
 1. Navigate to **Appearance > Customizer** in the admin.
-1. Expand the **Genesis Post Info & Meta* panel.
+1. Expand the **Genesis Post Info & Meta** panel.
 1. Expand either the **Post Info** or **Post Meta** section, depending on which you want to edit.
 1. Use the checkboxes to specify where to output (or hide) post info & meta for specific post types.
 
