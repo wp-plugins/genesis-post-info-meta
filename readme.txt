@@ -30,7 +30,7 @@ Genesis Post Info & Meta provides settings that can be accessed via the WordPres
 
 1. Install and activate the plugin.
 1. Navigate to **Appearance > Customizer** in the admin.
-1. Expand the **Genesis Post Info & Meta* panel and use the checkboxes to specify where to output post info & meta.
+1. Expand the **Genesis Post Info & Meta** panel and use the checkboxes to specify where to output post info & meta.
 
 == Screenshots ==
 

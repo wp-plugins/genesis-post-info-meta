@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Genesis Post Info & Meta 1.0.1\n"
 "Report-Msgid-Bugs-To: "
 "http://wordpress.org/support/plugin/genesis-post-info-meta\n"
-"POT-Creation-Date: 2015-05-11 17:53:21+00:00\n"
+"POT-Creation-Date: 2015-05-11 17:57:09+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,35 +16,42 @@ msgstr ""
 
 #: admin/class-genesis-post-info-meta-admin.php:358
 #: svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:358
+#: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:358
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:358
 msgid "Thank you for activating Genesis Post Info & Meta!"
 msgstr ""
 
 #: admin/class-genesis-post-info-meta-admin.php:359
 #: svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:359
+#: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:359
 #: svn/trunk/admin/class-genesis-post-info-meta-admin.php:359
 msgid "Post info & meta output can now be controlled via the %sCustomizer%s."
 msgstr ""
 
 #: admin/class-genesis-post-info-meta-admin.php:360
+#: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:360
+#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:360
 msgid "If you like this plugin, we always appreciate a %sfriendly review%s."
 msgstr ""
 
 #: admin/class-genesis-post-info-meta-admin.php:361
 #: svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:360
-#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:360
+#: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:361
+#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:361
 msgid "%sMIGHTYminnow Plugins%s"
 msgstr ""
 
 #: admin/class-genesis-post-info-meta-admin.php:362
 #: svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:361
-#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:361
+#: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:362
+#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:362
 msgid "%sDismiss Notice%s"
 msgstr ""
 
 #: admin/class-genesis-post-info-meta-admin.php:379
 #: svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:378
-#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:378
+#: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:379
+#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:379
 msgid ""
 "%s This plugin requires the Genesis Framework to function properly. Please "
 "%sactivate a Genesis theme%s to use this plugin."
@@ -52,37 +59,43 @@ msgstr ""
 
 #: admin/class-genesis-post-info-meta-admin.php:440
 #: svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:439
-#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:439
+#: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:440
+#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:440
 msgid "Choose where to display post info and meta."
 msgstr ""
 
 #: admin/class-genesis-post-info-meta-admin.php:446
 #: svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:445
-#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:445
+#: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:446
+#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:446
 msgid "Post Info"
 msgstr ""
 
 #: admin/class-genesis-post-info-meta-admin.php:447
 #: svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:446
-#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:446
+#: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:447
+#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:447
 msgid "Post Meta"
 msgstr ""
 
 #: admin/class-genesis-post-info-meta-admin.php:467
 #: svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:466
-#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:466
+#: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:467
+#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:467
 msgid "Check the boxes next to the post types for which you wish to show %s."
 msgstr ""
 
 #: admin/class-genesis-post-info-meta-admin.php:507
 #: svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:506
-#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:506
+#: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:507
+#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:507
 msgid "Single"
 msgstr ""
 
 #: admin/class-genesis-post-info-meta-admin.php:508
 #: svn/tags/1.0.0/admin/class-genesis-post-info-meta-admin.php:507
-#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:507
+#: svn/tags/1.0.1/admin/class-genesis-post-info-meta-admin.php:508
+#: svn/trunk/admin/class-genesis-post-info-meta-admin.php:508
 msgid "Archive"
 msgstr ""
 
