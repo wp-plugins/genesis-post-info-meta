@@ -4,7 +4,7 @@ Donate link:       http://wordpress.org/plugins/genesis-post-info-meta
 Tags:              genesis, post, info, meta, control
 Requires at least: 3.5
 Tested up to:      4.3
-Stable tag:        1.0.1
+Stable tag:        1.0.2
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,9 @@ Genesis Post Info & Meta provides settings that can be accessed via the WordPres
 
 == Changelog ==
 
+= 1.0.2 =
+* Fix PHP notice issue related to undefined options array index for pages and non-public post types
+
 = 1.0.1 =
 * Fixing admin notice display bug in which notice can't be dismissed and logo flashes in too large
 
@@ -45,6 +48,9 @@ Genesis Post Info & Meta provides settings that can be accessed via the WordPres
 * First release
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+* Fix PHP notice issue related to undefined options array index for pages and non-public post types
 
 = 1.0.1 =
 * Fixing admin notice display bug in which notice can't be dismissed and logo flashes in too large
