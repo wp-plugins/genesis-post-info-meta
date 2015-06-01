@@ -39,7 +39,7 @@ Genesis Post Info & Meta provides settings that can be accessed via the WordPres
 == Changelog ==
 
 = 1.0.2 =
-* Fix PHP notice issue related to undefined options array index for pages and non-public post types
+* Fix PHP notice issue related to undefined options array index for pages and non-public post types (props @Braad)
 
 = 1.0.1 =
 * Fixing admin notice display bug in which notice can't be dismissed and logo flashes in too large
@@ -50,7 +50,7 @@ Genesis Post Info & Meta provides settings that can be accessed via the WordPres
 == Upgrade Notice ==
 
 = 1.0.2 =
-* Fix PHP notice issue related to undefined options array index for pages and non-public post types
+* Fix PHP notice issue related to undefined options array index for pages and non-public post types (props @Braad)
 
 = 1.0.1 =
 * Fixing admin notice display bug in which notice can't be dismissed and logo flashes in too large
