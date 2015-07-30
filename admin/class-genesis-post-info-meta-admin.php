@@ -68,6 +68,15 @@ class Genesis_Post_Info_Meta_Admin {
 	private $Mm_url;
 
 	/**
+	 * Specific customizer URL
+	 *
+	 * @since    1.0.0
+	 * @access   private
+	 * @var      string    $Mm_url    URL to link to MIGHTYminnow site.
+	 */
+	private $customizer_url;
+
+	/**
 	 * The instance of this class.
 	 *
 	 * @since    1.0.0
@@ -104,7 +113,22 @@ class Genesis_Post_Info_Meta_Admin {
 		$this->plugin_slug = $this->plugin->get( 'slug' );
 		$this->plugin_name = $this->plugin->get( 'name' );
 		$this->version = $this->plugin->get( 'version' );
+
+	}
+
+	/**
+	 * Do setup that needs to happen on/after init.
+	 *
+	 * @since 1.1.0
+	 */
+	public function do_setup() {
+
+		// Set up customizer url.
 		$this->Mm_url = '//mightyminnow.com/plugin-landing-page?utm_source=' . $this->plugin_slug . '&utm_medium=plugin&utm_campaign=WordPress%20Plugins';
+		$this->customizer_url = get_admin_url( null, 'customize.php?autofocus[panel]=' . $this->plugin_slug );
+		if ( get_option( 'page_for_posts' ) ) {
+			$this->customizer_url .= '&url=' . get_permalink( get_option( 'page_for_posts' ) );
+		}
 
 	}
 
@@ -356,7 +380,7 @@ class Genesis_Post_Info_Meta_Admin {
 					</svg></a>';
 
 			$notice_message .= '<h4>' . esc_html__( 'Thank you for activating Genesis Post Info & Meta!', 'genesis-post-info-meta' ) . '</h4>';
-			$notice_message .= '<p>' . sprintf( esc_html__( 'Post info & meta output can now be controlled via the %sCustomizer%s.', 'genesis-post-info-meta' ), '<b><a href="' . get_admin_url( null, 'customize.php?autofocus[panel]=' . $this->plugin_slug ) . '">', '</a></b>' );
+			$notice_message .= '<p>' . sprintf( esc_html__( 'Post info & meta output can now be controlled via the %sCustomizer%s.', 'genesis-post-info-meta' ), '<b><a href="' . $this->customizer_url . '">', '</a></b>' );
 			$notice_message .= ' ' . sprintf( esc_html__( 'If you like this plugin, we always appreciate a %sfriendly review%s.', 'genesis-post-info-meta' ), '<b><a href="https://wordpress.org/support/view/plugin-reviews/genesis-post-info-meta" target="_blank">', '</a></b>' ) . '</p>';
 			$notice_message .= '<p>' . sprintf( esc_html__( '%sMIGHTYminnow Plugins%s', 'genesis-post-info-meta' ), '<a href="' . $this->Mm_url . '">', '</a> | ' );
 			$notice_message .= sprintf( esc_html__( '%sDismiss Notice%s', 'genesis-post-info-meta' ), '<a href="' . add_query_arg( 'gpim_notice_ignore', 0, $_SERVER['REQUEST_URI'] ) . '">', '</a></p>' );
@@ -386,6 +410,16 @@ class Genesis_Post_Info_Meta_Admin {
 
 		}
 
+	}
+
+	/**
+	 * Add custom menu item to customizer view.
+	 *
+	 * @since 1.1.0
+	 */
+	public function add_menu_item() {
+		global $submenu;
+	    $submenu['options-general.php'][] = array( $this->plugin_name, 'manage_options', $this->customizer_url );
 	}
 
 	/**
